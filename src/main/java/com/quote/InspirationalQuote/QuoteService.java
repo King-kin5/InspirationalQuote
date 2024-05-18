@@ -20,30 +20,30 @@ public class QuoteService {
 
    // @Transactional
     //public void scrapeAndSaveQuotes() {
-      //  List<Quote> quotes = new ArrayList<>();
+       //List<Quote> quotes = new ArrayList<>();
 
-      //  try {
+       // try {
         //    int timeoutMillis = 20000;
 
-          //  for (int i = 1; i <= 5; i++) {
-            //    String url = "https://www.goodreads.com/quotes?page=" + i;
-             //   Document doc = Jsoup.connect(url).timeout(timeoutMillis).get();
-              //  Elements quoteElements = doc.select(".quoteText");
+         //  for (int i = 1; i <= 5; i++) {
+              // String url = "https://www.goodreads.com/quotes?page=" + i;
+              //Document doc = Jsoup.connect(url).timeout(timeoutMillis).get();
+                //Elements quoteElements = doc.select(".quoteText");
 
-              //  for (Element element : quoteElements) {
-                    //String quoteText = element.text();
-                    //Quote quote = new Quote();
-                   // quote.setText(quoteText);
+                 // for (Element element : quoteElements) {
+                  //  String quoteText = element.text();
+                  //  Quote quote = new Quote();
+                  //  quote.setText(quoteText);
                    // quotes.add(quote);
                 //}
-         //   }
+         //  }
 
-           // quoteRepository.saveAll(quotes);
-            //System.out.println("Quotes scraped and saved successfully.");
+          //  quoteRepository.saveAll(quotes);
+         //   System.out.println("Quotes scraped and saved successfully.");
        // } catch (IOException e) {
-          //  e.printStackTrace();
-        //    System.err.println("Error while scraping quotes: " + e.getMessage());
-       // }
+        //    e.printStackTrace();
+      //      System.err.println("Error while scraping quotes: " + e.getMessage());
+   // }
 
 //}
 
